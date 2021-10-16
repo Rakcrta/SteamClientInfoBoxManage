@@ -39,12 +39,18 @@ function getTimeRecord(DOM) {
 function getPlaytime(s) {
     var ret = 0.00
     let aString = s.split(" ")
-    if (aString[0].includes(",")) {
-        let aLeft = aString[0].split(",")
+    var sNumStr
+    for (let i = 0; i < aString.length; i++) {
+        if (!!(aString[i].match(/\d/g))) {
+            sNumStr = aString[i]
+        }
+    }
+    if (sNumStr.includes(",")) {
+        let aLeft = sNumStr.split(",")
         let sLeft = aLeft.join('')
         ret = parseFloat(sLeft)
     } else {
-        ret = parseFloat(aString[0])
+        ret = parseFloat(sNumStr)
     }
     return ret
 }
