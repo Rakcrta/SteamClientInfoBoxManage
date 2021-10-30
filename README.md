@@ -10,3 +10,4 @@
 - 显示/隐藏游戏的下载图标
 
 ![demo](https://greasyfork.s3.us-east-2.amazonaws.com/8269am5kp76svb483tvvbetvm6lm)
+![demo](https://blob.keylol.com/forum/202110/05/015619pwqz9z3sr1wfceoy.jpg)
