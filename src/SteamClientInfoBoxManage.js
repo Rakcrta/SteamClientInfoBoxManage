@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         SteamClientInfoBoxManage
 // @namespace    http://tampermonkey.net/
-// @version      0.9
+// @version      1.2
 // @description  隐藏"Steam个人游戏列表"页的客户端和下载信息，附加游戏列表排序功能
 // @author       澪羽
+// @match        https://steamcommunity.com/profiles/*/games/*
 // @match        https://steamcommunity.com/id/*/games/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        GM_setValue
